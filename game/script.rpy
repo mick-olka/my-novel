@@ -9,9 +9,13 @@ define c = Character("Creator", color="#00ff00", kind = nvl)
 
 define menu = nvl_menu
 
+init:
+    $ count = 0
+
 # The game starts here.
 
 label start:
+
 
 $ toPlay = True
 
@@ -33,13 +37,15 @@ while toPlay:
 
     e "Lets start from this."
 
-    c '''try triple "paws"'''
+    c '''try to increase this to [count]'''
 
     e "Start again!"
 
+    $ count +=1
+
     menu:
 
-        "Stay":
+        "Increase":
             nvl clear
             jump start
 

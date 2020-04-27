@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 48: expected menuitem
-    nvl clear
-    ^
+File "game/script.rpy", line 12: expected statement.
+    count = 0
+          ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Mon Apr 27 10:12:16 2020
+Mon Apr 27 17:50:12 2020
