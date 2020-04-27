@@ -35,7 +35,7 @@ $ toPlay = True
 
 while toPlay:
 
-    e "Lets start from this."
+    e "Creator! Lets start from this."
 
     c '''try to increase this to [count]'''
 
