@@ -41,7 +41,7 @@ label start:
 
     $ count +=1
 
-    call inside from _call_inside
+    call inside
 
     menu:
 
